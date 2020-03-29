@@ -1,0 +1,74 @@
+@media  (min-width:768px ) and (max-width : 960px){
+    #subContainer-1 div {
+        width: 380px;
+        height: 200px;
+        float: left;
+        background-color: burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subContainer-1 div:last-of-type{
+        background-color: rgb(231, 27, 27);
+    }
+    
+    
+    #subContainer-2 div {
+        width: 190px;
+        height: 250px;
+        float: left;
+        background-color: rgb(105, 64, 11);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subContainer-2 div:nth-of-type(2){
+        background-color: darkgreen;
+    }
+    #subContainer-2 div:nth-of-type(3){
+        background-color: darkred;
+    }
+    #subContainer-2 div:nth-of-type(4){
+        background-color: deepskyblue;
+    }
+
+
+
+}
+
+
+@media  (min-width:480px ) and (max-width : 767px){
+
+    #subContainer-1 div {
+        width: 480px;
+        height: 125px;
+        background-color: burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subContainer-1 div:last-of-type{
+        background-color: rgb(231, 27, 27);
+    }
+    
+    
+    #subContainer-2 div {
+        width: 240px;
+        height: 250px;
+        float: left;
+        background-color: rgb(105, 64, 11);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #subContainer-2 div:nth-of-type(2){
+        background-color: darkgreen;
+    }
+    #subContainer-2 div:nth-of-type(3){
+        background-color: darkred;
+    }
+    #subContainer-2 div:nth-of-type(4){
+        background-color: deepskyblue;
+    }
+
+}
