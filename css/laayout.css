@@ -1,3 +1,41 @@
+header{
+    width: 960px;
+    height: 100px;
+    background-color: #64418b
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    width: 200px;
+    height: 600px;
+    background-color: #a1378b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+#subContainer{
+    width: 760px;
+    float: right;
+
+}
+#subContainer-1{
+    width: 760px;
+}
+
+footer{
+    width: 760px;
+    background-color: #ff5800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border: black 1px solid;
+
+}
+
 @media  (min-width:768px ) and (max-width : 960px){
     
     header{
@@ -34,6 +72,7 @@
         align-items: center;
         justify-content: center;
         height: 150px;
+        border: black 1px solid;
     
     }
 
@@ -74,7 +113,7 @@
         align-items: center;
         justify-content: center;
         height: 80px;
-    
+        border: black 1px solid;
     }
     
 
