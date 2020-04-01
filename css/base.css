@@ -1,11 +1,29 @@
+
+#containerAll{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+
+}
+header,footer,aside{
+    border: black 1px solid;
+}
+
+
 @media  (min-width:768px ) and (max-width : 960px){
     #containerAll{
         width: 960px;
         margin: 0 auto;
         overflow: hidden;
-
+        
 
     }
+    header,footer,aside{
+        border: black 1px solid;
+    }
+    
+   
 }
 
 
@@ -16,5 +34,6 @@
         margin: 0 auto;
         overflow: hidden;
     }
+    
 
 }

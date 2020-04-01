@@ -1,3 +1,42 @@
+#subContainer-1 div {
+    width: 380px;
+    height: 200px;
+    float: left;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+}
+#subContainer-1 div:last-of-type{
+    background-color: rgb(231, 27, 27);
+}
+
+
+#subContainer-2 div {
+    width: 190px;
+    height: 250px;
+    float: left;
+    background-color: rgb(105, 64, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+}
+#subContainer-2 div:nth-of-type(2){
+    background-color: darkgreen;
+}
+#subContainer-2 div:nth-of-type(3){
+    background-color: darkred;
+}
+#subContainer-2 div:nth-of-type(4){
+    background-color: deepskyblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 @media  (min-width:768px ) and (max-width : 960px){
     #subContainer-1 div {
         width: 380px;
@@ -7,6 +46,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* border: black 1px solid; */
     }
     #subContainer-1 div:last-of-type{
         background-color: rgb(231, 27, 27);
@@ -21,6 +61,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* border: black 1px solid; */
     }
     #subContainer-2 div:nth-of-type(2){
         background-color: darkgreen;
@@ -32,7 +73,9 @@
         background-color: deepskyblue;
     }
 
-
+    /* *{
+        box-sizing: border-box;
+    } */
 
 }
 
@@ -46,6 +89,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* border: black 1px solid; */
     }
     #subContainer-1 div:last-of-type{
         background-color: rgb(231, 27, 27);
@@ -60,6 +104,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* border: black 1px solid; */
     }
     #subContainer-2 div:nth-of-type(2){
         background-color: darkgreen;
@@ -70,5 +115,7 @@
     #subContainer-2 div:nth-of-type(4){
         background-color: deepskyblue;
     }
-
+    /* *{
+        box-sizing: border-box;
+    } */
 }
