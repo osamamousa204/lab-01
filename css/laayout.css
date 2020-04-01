@@ -1,31 +1,48 @@
+@media  (min-width:960px ) {
+#containerAll{
+  display: flex;  
+  flex-direction: column;
+}
+
 header{
+    order: 1;
     width: 960px;
     height: 100px;
-    background-color: #64418b
-    ;
+    background-color: #64418b;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+main{
+    order: 2;
+    display: flex;
+}
 aside{
+    order: 1;
     width: 200px;
     height: 600px;
     background-color: #a1378b;
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
 }
 #subContainer{
+    order: 2;
     width: 760px;
-    float: right;
-
+    display: flex;
+    flex-direction: column;
 }
 #subContainer-1{
     width: 760px;
+    order: 1;
+    display: flex;
 }
-
+#subContainer-2{
+order: 2;
+display: flex;
+}
 footer{
+    order: 3;
     width: 760px;
     background-color: #ff5800;
     display: flex;
@@ -35,64 +52,99 @@ footer{
     border: black 1px solid;
 
 }
-
+}
 @media  (min-width:768px ) and (max-width : 960px){
     
-    header{
-        width: 960px;
-        height: 100px;
-        background-color: #64418b
-        ;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    aside{
-        width: 200px;
+    #containerAll{
+        display: flex;  
+        flex-direction: column;
+      }
+      
+      header{
+          order: 1;
+          width: 960px;
+          height: 100px;
+          background-color: #a58bc2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      main{
         height: 600px;
-        background-color: #a1378b;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        float: left;
-    }
-    #subContainer{
-        width: 760px;
-        float: right;
-    
-    }
-    #subContainer-1{
-        width: 760px;
-    }
-    
-    footer{
-        width: 760px;
-        background-color: #ff5800;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 150px;
-        border: black 1px solid;
-    
-    }
-
+        width: 960px;
+          order: 2;
+          display: flex;
+      }
+      aside{
+          order: 1;
+          width: 200px;
+          height: 600px;
+          background-color: #1b0918;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      #subContainer{
+          order: 2;
+          width: 760px;
+          display: flex;
+          flex-direction: column;
+      }
+      #subContainer-1{
+          /* width: 760px; */
+          order: 1;
+          display: flex;
+      }
+      #subContainer-2{
+      order: 2;
+      display: flex;
+      }
+      footer{
+          order: 3;
+          width: 760px;
+          background-color: #443831;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 150px;
+          border: rgb(177, 66, 66) 1px solid;
+      
+      }
+      
 
 }
 
 
-@media  (min-width:480px ) and (max-width : 767px){
+@media   (max-width : 767px){
+
+    #containerAll{
+        display: flex;  
+        flex-direction: column;
+      }
+
     header{
+        order: 1;
         width: 480px;
         height: 75px;
-        background-color: blueviolet;
+        background-color: rgb(57, 45, 68);
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    main{
+        width: 480px;
+          order: 2;
+          display: flex;
+          flex-direction: column;
+      }
+            
+
+
+    
     aside{
         width: 480px;
         height: 150px;
-        background-color: brown;
+        background-color: rgb(66, 51, 51);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -100,20 +152,31 @@ footer{
     }
     #subContainer{
         width: 480px;
-        
+        display: flex;
+        flex-direction: column;
     
     }
     #subContainer-1{
         width: 480px;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    #subContainer-2{
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     footer{
+        order: 3;
         width: 480px;
-        background-color: darkblue;
+        background-color: rgb(4, 4, 26);
         display: flex;
         align-items: center;
         justify-content: center;
         height: 80px;
-        border: black 1px solid;
+        border: rgb(172, 118, 118) 1px solid;
     }
     
 
