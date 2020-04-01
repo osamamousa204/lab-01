@@ -1,8 +1,11 @@
+@media  (min-width:960px ) {
+
+
+
 #subContainer-1 div {
     width: 380px;
     height: 200px;
-    float: left;
-    background-color: burlywood;
+    background-color: rgb(194, 140, 69);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +19,6 @@
 #subContainer-2 div {
     width: 190px;
     height: 250px;
-    float: left;
     background-color: rgb(105, 64, 11);
     display: flex;
     align-items: center;
@@ -31,89 +33,87 @@
 }
 #subContainer-2 div:nth-of-type(4){
     background-color: deepskyblue;
+    /* order: 1; */
 }
 
 *{
     box-sizing: border-box;
 }
-
+}
 @media  (min-width:768px ) and (max-width : 960px){
     #subContainer-1 div {
         width: 380px;
         height: 200px;
-        float: left;
-        background-color: burlywood;
+        background-color: rgb(138, 125, 109);
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: black 1px solid; */
+        border: rgb(102, 26, 26) 1px solid;
     }
     #subContainer-1 div:last-of-type{
-        background-color: rgb(231, 27, 27);
+        background-color: rgb(49, 10, 10);
     }
     
     
     #subContainer-2 div {
         width: 190px;
         height: 250px;
-        float: left;
-        background-color: rgb(105, 64, 11);
+        background-color: rgb(44, 11, 105);
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: black 1px solid; */
+        border: rgb(121, 52, 52) 1px solid;
     }
     #subContainer-2 div:nth-of-type(2){
-        background-color: darkgreen;
+        background-color: rgb(27, 247, 27);
     }
     #subContainer-2 div:nth-of-type(3){
-        background-color: darkred;
+        background-color: rgb(231, 223, 223);
     }
     #subContainer-2 div:nth-of-type(4){
-        background-color: deepskyblue;
+        background-color: rgb(95, 19, 196);
+        /* order: 1; */
     }
-
-    /* *{
+    
+    *{
         box-sizing: border-box;
-    } */
+    }
+    
 
 }
 
 
-@media  (min-width:480px ) and (max-width : 767px){
+@media  (max-width : 767px){
 
     #subContainer-1 div {
         width: 480px;
         height: 125px;
-        background-color: burlywood;
+        background-color: rgb(92, 56, 9);
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: black 1px solid; */
     }
     #subContainer-1 div:last-of-type{
-        background-color: rgb(231, 27, 27);
+        background-color: rgb(247, 238, 238);
     }
     
     
     #subContainer-2 div {
         width: 240px;
         height: 250px;
-        float: left;
-        background-color: rgb(105, 64, 11);
+        background-color: rgb(22, 4, 43);
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: black 1px solid; */
     }
     #subContainer-2 div:nth-of-type(2){
-        background-color: darkgreen;
+        background-color: rgb(12, 31, 12);
     }
     #subContainer-2 div:nth-of-type(3){
-        background-color: darkred;
+        background-color: rgb(126, 221, 36);
     }
     #subContainer-2 div:nth-of-type(4){
-        background-color: deepskyblue;
+        background-color: rgb(16, 23, 26);
     }
     /* *{
         box-sizing: border-box;

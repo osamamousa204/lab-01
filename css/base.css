@@ -1,4 +1,4 @@
-
+@media  (min-width:960px ) {
 #containerAll{
     width: 960px;
     margin: 0 auto;
@@ -9,7 +9,7 @@
 header,footer,aside{
     border: black 1px solid;
 }
-
+}
 
 @media  (min-width:768px ) and (max-width : 960px){
     #containerAll{
@@ -27,7 +27,7 @@ header,footer,aside{
 }
 
 
-@media  (min-width:480px ) and (max-width : 767px){
+@media  (max-width : 767px){
 
     #containerAll{
         width: 480px;
